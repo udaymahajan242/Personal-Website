@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+
+
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Uday Mahajan | University of Washington, Seattle - CSE.</title>
+	<meta name="description" content="Personal Website">
+	<meta name="author" content="Uday Mahajan">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+   	<link href="css/main.css" rel="stylesheet" />
+ <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/default.min.css">
+   <!-- Script
+   ================================================== -->
+   
+    <!-- Java Script
+   ================================================== -->
+   
+   <script src='https://www.google.com/recaptcha/api.js'></script>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+  <script src="./js/jquery.min.js.download" type="text/javascript"></script>
+	<script src="./js/typed.js.download"></script>
+	
+	
+	<script>
+	
+	
+	jQuery(function($){
+	           <!-- Terminal About script display-->
+		$("#typed").typed({
+			strings: ["In a nutshell, I love to learn, build, play, and explore.", "I was born in the Repubic of India.", "I am an undergraduate student at Paul G. Allen School of Computer Science &amp; Engineering.",  "I am looking for Summer, Fall 2018 Software Development Internships.", "I am pursuing Computer Engineering." ,"I love to listen to music", 
+			"I love running and working out", "Scroll down to learn more about me."],
+			typeSpeed: 50,
+			 
+      
+		});
+
+	});
+	
+	jQuery(function($){
+	    
+      <!-- Hello in different world languages-->
+		$("#typed1").typed({
+	   strings: [ "Hello.", "Olá", " नमस्ते. " , "你好",  "ਸਤ ਸ੍ਰੀ ਅਕਾਲ.",  "Kumusta po.", "Salve", "xin chào." , "ഹലോ" , "హలో.", "Hola." , "Hello.", "வணக்கம்.", "Ciao.",  "হ্যালো." , "こんにちは.", " नमस्ते. " , "Përshëndetje", "હેલ્લો.", "Здравствуйте." , "Hello.", "ಹಲೋ.", "Bonjour." , " नमस्ते. " ,"مرحبا ", "ഹലോ.", "हॅलो.", "여보세요.", "سلام", "Hallo.", "Hello.", "Χαίρετε." , " नमस्ते. " ,"ہیلو", "ሰላም", "Բարեւ","Kaixo", "добры дзень", " नमस्ते. " ,"ဟယ်လို", "buna" ],
+			typeSpeed: 50,
+			 backSpeed: 50
+      
+		});
+
+	});
+	
+	
+  function shift(){
+      $(".head-wrap").addClass("shift-text");
+      terminalHeight();
+  }
+
+  function terminalHeight(){
+      var termHeight = $(".terminal-height");
+      var value = termHeight.text();
+      value = parseInt(value);
+      setTimeout(function(){
+          if (value > 10){
+              value = value-1;
+              this.txtValue = value.toString();
+              termHeight.text(this.txtValue);
+              self.terminalHeight();
+          }
+          else{
+              clearTimeout();
+          }
+      }, 10);
+  }
+	</script>
+
+	<script src="js/modernizr.js"></script>
+	
+	 <script async defer src="https://buttons.github.io/buttons.js"></script>
+			
+	  <script type="text/javascript" charset="utf-8">
+      
+         var html5_audiotypes=
+         { //define list of audio file extensions and their associated audio types. Add to it if your specified audio file isn't on this list:
+           "mp3": "audio/mpeg",
+           "mp4": "audio/mp4",
+           "ogg": "audio/ogg",
+           "wav": "audio/wav"
+         };
+
+         function createsoundbite(sound) {
+             "use strict";
+             var html5audio=document.createElement('audio');
+             if (html5audio.canPlayType) {
+                 for (var i=0; i<arguments.length; i++) {
+                     var sourceel=document.createElement('source');
+                     sourceel.setAttribute('src', arguments[i]);
+                     if (arguments[i].match(/\.(\w+)$/i))
+                     {sourceel.setAttribute('type', html5_audiotypes[RegExp.$1]);}
+                     html5audio.appendChild(sourceel);
+                 }
+                 html5audio.load();
+                 html5audio.playclip=function() {
+                     html5audio.pause();
+                     html5audio.currentTime=0;
+                     html5audio.play();
+                 };
+                 return html5audio;
+             }
+             else {
+                 return {playclip:function(){throw new Error("Your browser doesn't support HTML5 audio unfortunately");}};
+             }
+         }
+
+         var clicksound=createsoundbite("name.wav", "name.mp3","name.html");
+        </script>
+		
+		
+		
+		<script type = "text/javascript">
+		function enableBtn(){
+    document.getElementById("button1").disabled = false;
+   }
+     </script>
+	 
+	 
+	<script type = "text/javascript">
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 3000);
+          }
+
+          var images = [], x = -1;
+          images[0] = "./images/image0.jpg";
+          images[1] = "./images/image1.jpg";
+          images[2] = "./images/image2.jpg";
+		  images[3] = "./images/image3.jpg";
+          images[4] = "./images/image4.jpg";
+		  images[5] = "./images/image5.jpg";
+          images[6] = "./images/image6.jpg";
+          images[7] = "./images/image7.jpg";
+		  images[8] = "./images/image8.jpg";
+          images[9] = "./images/image9.jpg";
+		  images[10] = "./images/image10.jpg";
+          images[11] = "./images/image11.jpg";
+          images[12] = "./images/image12.jpg";
+      </script>
+
+   <!-- Favicon
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body  class="disableselect disabledrag" onload = "startTimer(); document.getElementById('button1').disabled = true;">
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+  
+	
+	 <img id="img" class="img-src" src="./images/startPicture.jpg"/>
+	 
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#education">Education</a></li>
+			  <li><a class="smoothscroll" href="#work">Work Experience</a></li>
+			   <li><a class="smoothscroll" href="#skills">Skills</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact Form</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+		 
+		    <img title= "Uday. "src="./images/avatar.jpg" onmousedown="return false;" title="Uday Mahajan" alt="Avatar" style=" border-radius: 50%; pointer-events: none" width="180" height="180">    
+
+            <h1>Uday Mahajan.</h1>
+		
+	<div>
+	<div class="head-wrap">
+		<h3 >   <span style="font-size: 24pt" id="typed1"></span></h3>
+<h3><span style="font-size: 20pt">I am<a class="audio-clip" href="#current" onclick="clicksound.playclip()"> <i class="fa fa-volume-up"></i>  Uday Mahajan <font color="#ffffff" size="3"> (उदय महाजन).  </font> </a> 	</h3>
+		<br>
+		<div class="text-editor-wrap">
+		<div id="bar">  
+		
+		
+    <div id="red">
+    </div>
+    <div id="yellow">
+    </div>
+    <div id="green">
+    </div>
+
+	
+</div>
+	<!--		<div class="title-bar"><span class="title">Welcome to Uday Mahajan's Personal Website <!--&mdash; bash &mdash; 80x<span class="terminal-height">25</span> </span></div> --->
+			<div class="text-body">
+				$ <span id="typed"></span>
+			</div>
+		</div>
+		 
+                <ul class="social">
+               <li><a title="Add on Facebook" class="icon" href="http://www.facebook.com/addfriend.php?id=udaymahajan242" target="_blank" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
+               <li><a title="Follow on Twitter" class="icon" href="https://www.twitter.com/udaymahajan242" target="_blank" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
+               <li><a title="Follow on Instagram" class="icon" href="https://www.instagram.com/udaymahajan242" target="_blank" data-original-title="Instagram"><i class="fa fa-instagram"></i></a></li>
+			   <li><a title="Add on Snapchat" class="icon" href="https://www.snapchat.com/add/udaymahajan242" target="_blank" data-original-title="Snapchat"><i class="fa fa-snapchat"></i></a></li>
+			   <li><a title="Connect on LinkedIn" class="icon" href="http://www.linkedin.com/in/udaymahajan242" target="_blank" data-original-title="LinkedIn"> <i class="fa fa-linkedin"></i> </a></li>
+			   <li><a title="View on GitHub" class="icon" href="https://github.com/udaymahajan242" target="_blank" data-original-title="Github"> <i class="fa fa-github"></i> </a></li>
+               <li><a title="Add via Skype" class="icon" href="skype:udaymahajan242?add" target="_blank" data-original-title="Skype"><i class="fa fa-skype"></i></a></li>
+			   <li><a title="Follow on Saavn" class="icon" href="https://www.saavn.com/u/e6fae8ab3a7962e3b6a24b66ac015ca9" target="_blank" data-original-title="Saavn"><i class="fa fa-music"></i></a></li>
+			   <li><a title="Add to Google + circle" class="icon" href="https://plus.google.com/u/0/+UdayMahajan242" target="_blank" data-original-title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+			   <li><a title="E-mail Uday" class="icon" href="#contact"  data-original-title="E-mail"><i class="fa fa-envelope-square"></i></a></li>
+			   </ul>
+			    <div class="follow" >
+			 
+					 <div align="center" class="fb-follow fb_iframe_widget" data-href="https://www.facebook.com/udaymahajan242" data-colorscheme="dark" data-layout="button" data-show-faces="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=593762713978577&amp;color_scheme=dark&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2Fudaymahajan242&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;show_faces=false"><span style="vertical-align: bottom; width: 90px; height: 20px;">
+					 <iframe src="https://www.facebook.com/plugins/follow?href=https%3A%2F%2Fwww.facebook.com%2Fudaymahajan242&amp;layout=button&amp;show_faces=false&amp;colorscheme=light&amp;width=60&amp;height=20" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:20px;" allowTransparency="true"></iframe>
+					 </span></div> 
+							
+					
+					<div class="git-follow">  &nbsp &nbsp &nbsp <a class="github-button" href="https://github.com/ntkme/github-buttons/subscription" data-icon="octicon-eye" aria-label="Watch ntkme/github-buttons on GitHub">Follow</a>
+					</div> 
+					
+					 <div class="twitter-follow"><a href="https://twitter.com/udaymahajan242?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-dnt="true" data-show-count="false"> </a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div> 
+			
+				</div> 
+	</div>
+	 
+	</div>		
+   <br>
+   <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>   
+
+			
+         </div>
+      </div>
+
+     
+	  
+	    <h2 class="university-label"><i class="fa fa-graduation-cap" aria-hidden="true"></i> &nbsp University of Washington (UW).</h2>
+	<h2 class="location-label"><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp Seattle (WA), United States of America.</h2>
+
+   </header> <!-- Header End -->
+
+<!-- About Section
+   ================================================== -->
+  <section id="about" >
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  onmousedown="return false;" src="images/avatar.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>Hello, I'm a <span>Computer Science and Engineering</span>, <span>junior student</span> at <span><a href="http://cs.uw.edu" target="_blank" >Paul G. Allen School of Computer Science and Engineering</a></span> 
+			at the <span><a href="http://uw.edu" target="_blank" >University of Washington, Seattle.</a></span>.
+			I like to go for new opportunities that constantly challenge me while allowing me to learn. With the world becoming increasingly dependent on technology, the advancement of computers and electricity, I believe that computer science and engineering will be key for future progress and innovations.
+​​			My goal as a professional is to design and create worthwhile computer software for the betterment of the world. My other interests include music, programming, watching movies, swimming, roller skating, traveling and bicycling.
+            <br> 
+			To connect with me, send me a message via the Contact link or reach out to me on LinkedIn. I will get back to you at my earliest. </p>
+
+			
+			 <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Resume (PDF)</h2>
+                  
+
+               </div>
+
+               <div class="columns download">
+                 
+				 <p>
+				   <ul >
+                     <a href="resume.pdf" target="_blank"  class="button"><i class="fa fa-download"></i>Download Resume</a>
+				     <a href="#contact" class="button"> <i class="fa fa-handshake-o" aria-hidden="true"></i>  Hire Uday Mahajan </a>
+					</ul>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+			
+			
+       
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+  
+   <!-- Resume Section
+   ================================================== -->
+   <section id="education">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div  class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+		 
+		 
+         <div class="nine columns main-col">
+            <div class="row item">
+			<div class="twelve columns" oncopy="return false;" oncut="return false;" oncontextmenu="return false;">
+			
+			
+				<br>
+				<br>
+				
+				
+                  <h3> <a href="http://uw.edu" target="_blank" > <img src="images/uw.png" alt="UW Logo" width="38" height="38">  University of Washington, Seattle </a> </h3>
+                  <p class="info">Bachelor's of Science in Computer Engineering<span>&bull;</span> <em class="date">June 2019 (Expected)</em></p>
+
+                  <p style="color:black;">
+                The University of Washington, commonly referred to as simply Washington, UW, or informally U-Dub, is a public flagship research university in Seattle,
+				Washington, United States. Founded in 1861, Washington is one of the oldest universities on the West Coast. Previously known as University of Washington's Computer Science and Engineering (CSE) Department,
+				Paul G. Allen School of Computer Science & Engineering is consistently ranked among the top ten programs in the United States of America.
+
+				The Allen School educates tomorrow’s innovators and engages in research that advances core and emerging areas of the field. The school also leads a 
+				broad range of multi-disciplinary initiatives that demonstrate the transformative power of computing and are nationally recognized for its success 
+				in promoting diversity.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3 ><a href="https://www.pierce.ctc.edu/"  target="_blank" > <img src="images/pc.png" alt="Pierce College Logo" width="38" height="38">  Pierce College </a></h3>
+                  <p class="info">Associate's Degree of Science in Engineering <span>&bull;</span> <em class="date">December 2016</em></p>
+
+                  <p style="color:black;">
+                Pierce College is a community college district operating in and serving Pierce County in the U.S. state of Washington.
+				The district consists of two main colleges, Pierce College Fort Steilacoom in Lakewood and Pierce College Puyallup in Puyallup,
+				and auxiliary campuses at Fort Lewis, McChord Air Force Base, and in South Hill. The college district is home to 16,916 students.
+				Pierce College creates quality educational opportunities for a diverse community of learners to thrive in an evolving world.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+			
+			   <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>  <a href="http://www.stephenschandigarh.com/" target="_blank" >  <img src="images/ss.png" alt="St. Stephen's Logo" width="38" height="38">  St. Stephen's School </a></h3>
+                  <p class="info">High School (Grades: XI & XII)<span>&bull;</span> <em class="date">June 2014</em></p>
+
+                  <p style="color:black;">
+
+					St. Stephen’s School is a Roman Catholic, English Medium, Co-educational Institution, with reputation of developing an 
+					all-round ability of the students with a balanced training that leads to a proper appreciation of academic, athletic, ethical 
+					and moral excellence.The school is located in Togan near Chandigarh, India and was founded in 1982. 
+					The school is affiliated to the Central Board of Secondary Education (CBSE) board.
+
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+			
+			<div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3 class="disableselect disabledrag">  <a href="http://www.pinegroveschool.com/" target="_blank" >  <img src="images/pgs.png" alt="PGS Logo" width="38" height="38">  Pinegrove School </span> </a> </h3>
+                  <p class="info">High School (Grades: IX & X)<span>&bull;</span> <em class="date">December 2011</em></p>
+
+                  <p style="color:black;">
+
+					Pinegrove School, established in 1991, is a Co-educational, purely residential, English medium public 
+					school affiliated to the Central Board of Secondary Education (CBSE),Delhi, up to 10th and 12th Grades. 
+					The School is situated in two locations - Dharampur(Estd. 1991) and Subathu (Estd. 1998), both in the most 
+					picturesque scenery of the Shimla Hills, in District Solan of Himachal Pradesh, India.Pinegrove is reputed 
+					for its high standards in value education, good work-ethics and discipline, while maintaining the highest standards
+					of academic and sporting excellence. It is a member of the prestigious IPSC (Indian Public School’s Conference). The school
+					is also member of the British Council sponsored UKIERI (UK-India Educational Research Initiative) and 
+					GSP (Global School Programme), Round Square Conference, the NCC (National Cadet Corps), 
+					the IAYP (International Awards for Young People) which was the erstwhile Duke of Edinburgh’s Award Program and is
+					ISO 9001:2008 certified.
+
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+ </section> <!-- Education Section End-->
+ 
+  <!-- Work
+      ----------------------------------------------- -->
+	  <section id="work">
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns" oncopy="return false;" oncut="return false;" oncontextmenu="return false;">
+
+                  <h3>  <a href="https://www.pierce.ctc.edu/tutoring" target="_blank" >  <img src="images/as.png" alt="Pierce College Tutoring Center" width="38" height="38">  Pierce College Tutoring Center </a></h3>
+                  <p class="info">Professional & Mentor Tutor<span>&bull;</span> <em class="date">September 2016 - March 2017</em></p>
+
+                  <p style="color:black;">
+                  Responsibilities of a mentor tutor include but are not limited to addressing a team of his or her fellow tutors’ 
+				  concerns and making sure that they know about the available resources, guidelines regarding their work responsibilities,
+				  filling out the necessary paperwork, attending pieces of training and helping them to become a more effective tutor. 
+	
+				  Responsibilities of a faculty recommended professional tutor include providing one-on-one assistance to fellow students 
+				  across various collegiate level subject areas including math, physics, chemistry, and economics and lead weekly 50-minute interactive and 
+				  intensive practice sessions related to Collegiate Mathematics to a group of students. 		 
+				  Professional tutors at Pierce College have similar responsibilities of peer tutors, have earned at least an Associate's degree
+				  with stellar Grade Point Average,are proficient in their subject matter, and extensively trained in the art of learning and tutoring. 
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+     
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+	  </section>
+	  
+	  
+ <!-- Skills
+      ----------------------------------------------- -->
+	   <section id="skills" >
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>..
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+					   <li><span class="bar-expand java"></span><em>Java</em></li>
+						<li><span class="bar-expand c"></span><em>C</em></li>
+						<li><span class="bar-expand verilog"></span><em>Verilog</em></li>
+							<li><span class="bar-expand html5"></span><em>HTML5</em></li>
+						<li><span class="bar-expand git"></span><em>Git Version Control</em></li>
+						<li><span class="bar-expand css"></span><em>CSS</em></li>
+						<li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+						<li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> 
+    </section> <!-- End skills -->
+	
+   
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed" oncopy="return false;" oncut="return false;" oncontextmenu="return false;">
+
+            <h1>Check Out Some of Uday's Works.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="Chess Bots">
+                        <img alt="" src="images/portfolio/chessbots.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Chess Bots</h5>
+                              <p>Parallelism Project</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="Scrabble">
+                        <img alt="" src="images/portfolio/scrabble.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Scrabble</h5>
+                              <p>Java Development Personal Project</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="uMessage">
+                        <img alt="" src="images/portfolio/uMessage.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>uMessage</h5>
+                              <p>Data Structures Project</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="Frogger">
+                        <img alt="" src="images/portfolio/frogger.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Frogger</h5>
+                              <p>Digital Design Final Project</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+				
+				
+				  <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="Spam Filter">
+                        <img alt="" src="images/portfolio/spamfilter.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Spam Filter</h5>
+                              <p>Discrete Probability Project</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+             
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide" oncopy="return false;" oncut="return false;" oncontextmenu="return false;">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/chessbots.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Chess Bots</h4>
+			      <p>
+				  Implemented several (graph/tree) and combinational game theory algorithms like Mini-max, Alpha-Beta Pruning, and Jamboree Searcher (both sequential and parallel) for writing and optimizing various Chess bots in Java.
+				(Project viewing link available on request) 
+				  </p>
+               <span class="categories"><i class="fa fa-tag"></i>Back end - Gaming Algorithms in Java.</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/udaymahajan242/CSE-332-Project-3-Chess-Bots-team-xian-" target="_blank">View on GitHub (Email Request Needed.)</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide" oncopy="return false;" oncut="return false;" oncontextmenu="return false;">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/scrabble.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Scrabble</h4>
+			      <p>Implemented a dual player Scrabble game in Java from scratch using the Win-Builder tool for the GUI in Eclipse as a self-project.  (Email Request Required for code).</p>
+               <span class="categories"><i class="fa fa-tag"></i>Back-end, Front End - Java</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/udaymahajan242/Scrabble" target="_blank">View on GitHub</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide" oncopy="return false;" oncut="return false;" oncontextmenu="return false;">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/uMessage.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>uMessage</h4>
+			      <p> Implemented data structures such as MoveToFrontList, AVLTree, ChainingHashTable using Java’s Dictionary ADT and 
+				  sorting algorithms like QuickSort and TopKSort to drive word suggestion/prediction, spelling correction and auto-completion in 
+				  the uMessage chat application, similar to the ones used in smart phones.  (Email Request Required for code).</p>
+               <span class="categories"><i class="fa fa-tag"></i>Back-end Data Structures - Java </span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/udaymahajan242/CSE-332-Project-2-uMessage-team-granger-" target="_blank">View on GitHub (Email Request Needed.)</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide"oncopy="return false;" oncut="return false;" oncontextmenu="return false;" >
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/frogger.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Frogger</h4>
+			      <p>
+				  This project is inspired by the Frogger which  is a 1981 arcade game developed by Konami. It was licensed for North American
+				  distribution by Sega-Gremlin and worldwide by Sega itself. It is regarded as a classic from 
+				  the golden age of video arcade games, noted for its novel gameplay and theme. The original 
+				  objective of the game is to direct frogs to their homes one by one by crossing a busy road 
+				  and navigating a river full of hazards. The Frogger arcade version is an early example of a 
+				  game with more than one CPU, as it used two Z80 processors. By 2005, Frogger in its various 
+				  home video game incarnations had sold 20 million copies worldwide,
+				  including 5 million in the United States.The road frogger is a high-tech traffic simulator so they can learn how to safely 
+				  cross the road.  (Email Request Required for code).
+				  
+				  
+				  </p>
+               <span class="categories"><i class="fa fa-tag"></i>Verilog, Digital Design & Logic, FGPA, Hardware</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/udaymahajan242/CSE-369-Labs/tree/master/lab8" target="_blank">Visit web page on GitHub (Email Request Required).</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+        
+        <div id="modal-05" class="popup-modal mfp-hide" oncopy="return false;" oncut="return false;" oncontextmenu="return false;">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/spamfilter.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Spam Filter (Spam e-mail Classification system)</h4>
+			      <p>
+				  Created a Java application to determine whether an email is a spam email or not using the Naïve Bayes classifier with Laplace smoothing, achieving over 95% accuracy.
+				  (Email Request Required for code).
+				  
+				  
+				  </p>
+               <span class="categories"><i class="fa fa-tag"></i>Java, Naive Bias Algorithm, Discrete Probability, Spam Classification.</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/udaymahajan242/Naive-Bias" target="_blank">Visit web page on GitHub (Email Request Required).</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+<!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span> </span></h1>
+			
+			
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead" style="color:white; " >To connect with me or request my phone number, send me a message using the form provided below.
+							​ I will get back to you at my earliest at your provided e-mail address. Thank you for your interest !
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+		 
+		 <h2 style="color:white; " align="center"> <i class="fa fa-comment"></i>   Get in Touch with Uday.  </h2>
+		 
+		 <br>
+
+            
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName"> Full Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName" placeholder="John Doe">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email Address <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail" placeholder="johndoe@example.com">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject" placeholder="Subject line">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="8" id="contactMessage" name="contactMessage" placeholder="Your message here."></textarea>
+                  </div>
+				  
+				     <div align="center">
+                  
+                 <label for="g-recaptcha">Identify as a human. <span class="required">*</span></label>
+<br>
+                  <div class="g-recaptcha" data-sitekey="6LcG70wUAAAAAIG6sXxSqeeHpJ4chrr36YBpFhUB" data-callback="enableBtn"></div>
+                   <br>
+		         </div>
+				  
+                  <div>
+                     <button type="button" class="submit" id="button1">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Sorry. There was an error. Please try again!</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you for reaching out! Uday will respond at his earliest.<br>
+				   </div>
+
+            </div>
+						  <aside class="four columns footer-widgets">
+            </aside>
+			
+      </div>
+
+   </section> <!-- Contact Section End-->
+   
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links"  >
+               <li><a title="Add on Facebook" class="icon" href="https://www.facebook.com/udaymahajan242" target="_blank" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
+               <li><a title="Follow on Twitter" class="icon" href="https://www.twitter.com/udaymahajan242" target="_blank" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
+               <li><a title="Follow on Instagram" class="icon" href="https://www.instagram.com/udaymahajan242" target="_blank" data-original-title="Instagram"><i class="fa fa-instagram"></i></a></li>
+			   <li><a title="Add on Snapchat" class="icon" href="https://www.snapchat.com/add/udaymahajan242" target="_blank" data-original-title="Snapchat"><i class="fa fa-snapchat" aria-hidden="true"></i></a></li>
+			   <li><a title="Connect on LinkedIn" class="icon" href="http://www.linkedin.com/in/udaymahajan242" target="_blank" data-original-title="LinkedIn"> <i class="fa fa-linkedin"></i> </a></li>
+			   <li><a title="View on GitHub" class="icon" href="https://github.com/udaymahajan242" target="_blank" data-original-title="Github"> <i class="fa fa-github"></i> </a></li>
+               <li><a title="Add via Skype" class="icon" href="skype:udaymahajan242?add" target="_blank" data-original-title="Skype"><i class="fa fa-skype"></i></a></li>
+			  <li><a title="Follow on Saavn" class="icon" href="https://www.saavn.com/u/e6fae8ab3a7962e3b6a24b66ac015ca9" target="_blank" data-original-title="Saavn"><i class="fa fa-music"></i></a></li>
+			   <li><a title="Add to Google + circle" class="icon" href="https://plus.google.com/u/0/+UdayMahajan242" target="_blank" data-original-title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+ 			  <li><a title="E-mail Uday" class="icon" href="#contact" data-original-title="E-mail"><i class="fa fa-envelope-square"></i></a></li>
+            </ul>
+
+           
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+	  
+	  <ul id="copyright" class="copyright" oncontextmenu="return false;">
+	  
+	  
+               <li><span style="color:white"> <title="© Copyright Uday Mahajan"> © Copyright 2018 - Uday Mahajan. All Rights Reserved.</span></li>
+               <li><span style="color:white"> 
+			   <title="Made with ❤ by Uday Mahajan">Made with <img src="images/love.gif" style="height: 40px; width: 40px; margin-bottom: -15px;"> by Uday Mahajan.
+			   </span></li>   
+            </ul>
+			
+			
+   </footer> <!-- Footer End-->
+
+
+  
+   
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-11539016-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+   
+</body>
+
+</html>
