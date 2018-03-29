@@ -1,8 +1,6 @@
 /*
 =====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
+
 =====================================================================
 
    TOC:
@@ -172,15 +170,13 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 .git-follow {
 	 display: inline-block;
-     float: right;
+     float: center;
 	position: absolute;
      margin: auto;
      top: 0;
      right: 0;
      bottom: 20;
      left: 0;
-     width: 100px;
-     height: 100px;
  
 }
 
@@ -188,19 +184,31 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 .twitter-follow {
 	
-      display: inline-block;
-    float: center;
+     display: inline-block;
+    float: left;
 	position: absolute;
      margin: auto;
      top: 0;
      right: 0;
      bottom: 20;
      left: 100;
-     width: 100px;
-     height: 100px;
  
 }
 
+.google-maps {
+        position: relative;
+        padding-bottom: 75%; 
+		padding-right: 50%; 
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
 
 
 .quora-follow-button {

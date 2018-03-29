@@ -10,7 +10,6 @@ if($_POST) {
    $email = trim(stripslashes($_POST['contactEmail']));
    $subject = trim(stripslashes($_POST['contactSubject']));
    $contact_message = trim(stripslashes($_POST['contactMessage']));
-   $g-recaptcha = trim(stripslashes($_POST['g-recaptcha']));
 
    // Check Name
 	if (strlen($name) < 2) {
