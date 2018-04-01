@@ -1,0 +1,4 @@
+AuthName "Uday's Vault : Restricted Area."
+AuthType Basic
+AuthUserFile /cse/web/homes/udaym242
+require harsh		

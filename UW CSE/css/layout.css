@@ -1223,7 +1223,7 @@ footer .copyright  li:first-child:before {
 
 .social-links{
 	
-	 -webkit-touch-callout: none; /* iOS Safari */
+   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
   -khtml-user-select: none;    /* Konqueror */
   -moz-user-select: none;      /* Firefox */
@@ -1301,4 +1301,16 @@ footer .social-links li:first-child { margin-left: 0; }
 @media only screen and (min-width: 480px) and (max-width: 767px){
  h2 {
   font-size:12px;
+  
+ }
+ 
+.university-label {
+    visibility: hidden;
+    display: none;
 }
+
+.location-label {
+    visibility: hidden;
+    display: none;
+}
+

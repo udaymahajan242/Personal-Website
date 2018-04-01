@@ -1,0 +1,19 @@
+{
+    "name": "Shreyans Chandak",
+    "icons": [
+        {
+            "src": "https://shreyanschandak.com/favicon/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://shreyanschandak.com/favicon/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#2f2f2f",
+    "background_color": "#2f2f2f",
+    "start_url": "https://shreyanschandak.com",
+    "display": "standalone"
+}
