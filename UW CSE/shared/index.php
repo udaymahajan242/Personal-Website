@@ -43,10 +43,11 @@
 </head>
     <body>
 	  <!-- Output error message if any -->
-        <?php echo $error; ?>
+     
     <div class="login-box">
     <img src="avatar.png" class="avatar">
         <h1>Login Here</h1>
+		   <?php echo $error; ?>
             <form method="post" action="index.php">
             <p>Username</p>
             <input for="username" type="text" name="username" placeholder="Enter Username">
