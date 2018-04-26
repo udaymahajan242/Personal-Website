@@ -1,5 +1,50 @@
 /*
 =====================================================================
+=====================================================================
+
+The content of this website and all associated program 
+code are protected under the Digital Millennium Copyright Act. 
+Intentionally circumventing this code may constitute a violation of the DMCA. 
+© Copyright Uday Mahajan 2018. All Rights Reserved. -->
+
+
+
+
+___         __        __      __   __   __   __        __           
+ |  |__| | /__`    | /__`    |__) |__) /  \ |__)  /\  |__) |    \ / 
+ |  |  | | .__/    | .__/    |    |  \ \__/ |__) /~~\ |__) |___  |  
+                                                                    
+         __  ___    ___       ___     __             __   ___       
+   |\ | /  \  |      |  |__| |__     |__) |     /\  /  ` |__        
+   | \| \__/  |      |  |  | |___    |    |___ /~~\ \__, |___       
+                                                                    
+     __           __        __             __      __   ___         
+\ / /  \ |  |    /__` |__| /  \ |  | |    |  \    |__) |__          
+ |  \__/ \__/    .__/ |  | \__/ \__/ |___ |__/    |__) |___ .....
+ 
+
+  /$$$$$$                  /$$   /$$                                  
+ /$$__  $$                | $$  | $$                                  
+| $$  \__/  /$$$$$$       | $$  | $$  /$$$$$$  /$$$$$$/$$$$   /$$$$$$ 
+| $$ /$$$$ /$$__  $$      | $$$$$$$$ /$$__  $$| $$_  $$_  $$ /$$__  $$
+| $$|_  $$| $$  \ $$      | $$__  $$| $$  \ $$| $$ \ $$ \ $$| $$$$$$$$
+| $$  \ $$| $$  | $$      | $$  | $$| $$  | $$| $$ | $$ | $$| $$_____/
+|  $$$$$$/|  $$$$$$/      | $$  | $$|  $$$$$$/| $$ | $$ | $$|  $$$$$$$
+ \______/  \______/       |__/  |__/ \______/ |__/ |__/ |__/ \_______/
+                                                                    
+ 
+ © Copyright Uday Mahajan 2018
+                                                                                                                                                    
+
+
+																  
+=====================================================================  */
+
+
+
+
+/*
+=====================================================================
 
 =====================================================================
 
@@ -80,7 +125,7 @@ header .banner-text hr {
    border-color: rgba(150, 150, 150, .1);
 }
 
-/* header social links */
+/* header social links 
 header .social {
    margin: 24px 0;
    padding: 0;
@@ -92,21 +137,36 @@ header .social li {
    margin: 0 15px;
    padding: 0;
 }
+*/
+header .social {
+   margin: 18px 0 24px 0;
+   padding: 0;
+   font-size: 32px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+header .social li {
+  display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+}
+
+
 header .social li a { color: #fff; }
 header .social li a:hover { color: #11ABB0; }
 
 /* scrolldown link */
 header .scrolldown a {
    position: absolute;
-   bottom: 30px;
+   bottom: 5px;
    left: 50%;
    margin-left: -29px;
    color: #fff;
    display: block;
-   height: 42px;
-   width: 42px;
-   font-size: 42px;
-   line-height: 42px;
+   height: 32px;
+   width: 32px;
+   font-size: 32px;
+   line-height: 32px;
    color: #fff;
    border-radius: 100%;
 
@@ -122,7 +182,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 .location-label {
   color: #f2efef;
   opacity: 0.7;
-  bottom: 10px;
+  bottom: 1px;
   font-size: 15px;
   right: 20px;
   position: absolute
@@ -131,7 +191,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 .university-label {
   color: #f2efef;
   opacity: 0.7;
-  bottom: 10px;
+  bottom: 1px;
   font-size: 15px;
   left: 20px;
   position: absolute
@@ -238,7 +298,25 @@ header .scrolldown a:hover { color: #11ABB0; }
   -o-background-size: cover;
   background-size: cover;
   z-index: -10;
+  
+  
+
+  
 }
+
+#container {position: relative; font-size: 0;}
+.slide {
+    border: none; 
+    opacity: 0; 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    -webkit-transition: opacity 2s linear;
+    -moz-transition: opacity 2s linear;
+    -o-transition: opacity 2s linear;
+    transition: opacity 2s linear;
+}
+.showMe {opacity: 1;}
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -328,10 +406,15 @@ ul#nav li.current a { color: #00b2b2; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 180px;
+   height: 180px;
    border-radius: 100%;
 }
+
+#about .linked-in-hover {
+  padding-left: 30px;
+}
+
 #about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
@@ -1045,7 +1128,7 @@ call-to-action .button {
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font-size: 100px;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
@@ -1053,11 +1136,9 @@ call-to-action .button {
 }
 #contact h1 span { display: none; }
 #contact h1:before {
-   font-family: 'FontAwesome';
-   content: "\f0e0";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
+ 	padding-right: 10px;
+	font-size: 100px;
+   line-height: 100px;
    text-align: left;
    float: left;
    color: #ebeeee;
@@ -1223,7 +1304,7 @@ footer .copyright  li:first-child:before {
 
 .social-links{
 	
-   -webkit-touch-callout: none; /* iOS Safari */
+	 -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
   -khtml-user-select: none;    /* Konqueror */
   -moz-user-select: none;      /* Firefox */
@@ -1242,7 +1323,7 @@ footer .social-links li {
     display: inline-block;
     margin: 0;
     padding: 0;
-    margin-left: 42px;
+    margin-left: 25px;
     color: #F06000;
 }
 
@@ -1304,12 +1385,12 @@ footer .social-links li:first-child { margin-left: 0; }
   
  }
  
-.university-label {
+#university-label {
     visibility: hidden;
     display: none;
 }
 
-.location-label {
+#location-label {
     visibility: hidden;
     display: none;
 }
