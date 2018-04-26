@@ -1,6 +1,94 @@
+
+# Robot behavior guidelines for Uday's Website
+# This file is to prevent the crawling and indexing of certain parts
+# of my site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+
+# Google Ads Bot
+User-agent: AdsBot-Google
+Disallow:
+
+# Bing Ads Bot
+User-agent: AdIdxBot
+Disallow:
+
+# Yahoo! Ads Bot
+User-agent: Yahoo Ad Monitoring
+Disallow:
+
+# Google Images bot
 User-agent: Googlebot-Image
 Disallow: / 
 
+
+
+
+
+# Google Search Bot
+User-agent: googlebot
+Disallow: /resume/
+Disallow: /js/
+Disallow: /css/
+Disallow: /schedule/
+Disallow: /blog/
+Disallow: /schedule/
+Disallow: /shared/
+Disallow: /down/
+
+# Microsoft Search Bot
+User-agent: msnbot
+Disallow: /resume/
+Disallow: /js/
+Disallow: /css/
+Disallow: /schedule/
+Disallow: /blog/
+Disallow: /schedule/
+Disallow: /shared/
+Disallow: /down/
+
+# too many repeated hits, too quick
+User-agent: litefinder
+Disallow: /
+
+# Yahoo. too many repeated hits, too quick
+User-agent: Slurp
+Disallow: /
+
+# too many repeated hits, too quick
+User-agent: Baidu
+Disallow: /
+
+
+# All other bots
+User-agent: *
+Disallow: /resume/
+Disallow: /js/
+Disallow: /css/
+Disallow: /schedule/
+Disallow: /blog/
+Disallow: /schedule/
+Disallow: /shared/
+Disallow: /down/
+
+User-agent: *
+Disallow: /*.pdf$
+
+User-agent: *
+Disallow: /*.jpg$
+
+User-agent: *
+Disallow: /*.png$
+
+User-agent: *
+Disallow: /*.gif$
+
+User-agent: *
+Disallow: /images/*
+
+
+# MSN Images bot
 User-agent: MSNBot-Media
 Disallow: /
 
@@ -64,3 +152,21 @@ Disallow: /
 
 User-agent: *
 Disallow: /cgi-bin/
+
+
+User-agent: Extractor Pro
+Disallow: /
+
+User-agent: YahooSeeker
+Disallow: /
+
+
+User-agent: EmailSiphon
+Disallow: /
+
+User-agent: Extractor Pro
+Disallow: /
+
+User-agent: DLExpert
+Disallow: /
+
