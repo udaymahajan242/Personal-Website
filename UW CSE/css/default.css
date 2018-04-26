@@ -905,6 +905,204 @@ properly.
 	text-align: center !important;
 }
 
+        .our-team{
+            text-align: center;
+            position: relative;
+            color: #fff;
+        }
+        .our-team img{
+            width: 100%;
+            height: 100%;
+        }
+        .our-team .content{
+            background: rgba(0, 0, 0, 0.6);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            text-align: center;
+            padding-top: 45%;
+            transform: perspective(400px) rotateX(-90deg);
+            transform-origin: center top 0;
+            transition: all 0.5s ease 0s;
+            opacity: 0;
+        }
+        .our-team:hover .content,
+        .our-team.active .content{
+            opacity: 1;
+            transform: perspective(400px) rotateX(0deg);
+        }
+        .our-team .content .title{
+            margin: 0 0 10px;
+            display: block;
+            font-size: 25px;
+            font-weight: 600;
+        }
+        .our-team .content .post{
+            margin: 0 0 25px;
+            display: block;
+            font-size: 15px
+        }
+        .our-team .social{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        .our-team .social li{
+            display: inline-block;
+        }
+        .our-team .social li a{
+            display: block;
+            color: #fff;
+            font-size: 20px;
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            border-radius: 0;
+            background-color: #F32248;
+            margin-right: 5px;
+            transition: all 0.5s ease 0s;
+            position: relative;
+        }
+        .our-team .social li a:hover, .our-team.active .social li a{
+            border-radius: 50%;
+            text-decoration: none;
+        }
+        @media screen and (max-width: 990px){
+            .our-team{
+                margin-bottom: 30px;
+            }
+        }
+		
+		/* Team Member CSS 
+===========================*/
+
+h1.team-h1 {
+  margin: 0;
+  position: absolute;
+  top: -16px;
+  text-align: center;
+  left: 40%;
+  font-family: georgia;
+  font-style: italic;
+  background-color: #008B8B;
+  padding: 0px 20px;
+  color: #222; 
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+.team-container {
+  background: rgba(0, 0, 0, 0.6);  
+  max-width: 1000px;
+  margin: auto;
+  border-top: 1px #e9e9e9 solid;
+  border-bottom: 1px #e9e9e9 solid;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-top: 1em;
+  position: relative;
+}
+
+.team-member {
+  width: 16%;
+  float: left;
+  text-align: center;
+  margin-right: 1%;
+  margin-left: 2%;
+}
+
+.team-member:last-child {margin-right: 0;}
+
+
+.team-member span,
+.team-member h3 {
+  max-width: 200px;
+  font-family: sans-serif;
+  color: white;
+  
+  letter-spacing: -1px;
+}
+
+.team-member h3 {
+    color: white;
+}
+
+.email {
+   color: white;
+  
+}
+
+.team-member span {
+  display: block;
+ 
+}
+.team-photo {
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+  max-width: 100%;
+  height: 100px;
+  transition: 0.1s transform ease-in-out;
+}
+
+
+.team-photo:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+
+/* code for phone layout */
+@media (max-width:850px){
+  .team-member {
+    width:25%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 40px;
+    
+  }
+  
+}
+
+
+
+@media (max-width:650px){
+  .team-member {
+    float: none;
+    display: block;
+    margin: 50px auto;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .team-member h3,
+  .team-member span {
+   
+    margin: 15px auto;
+  }
+}
+
+
+/* ENDS Team Member CSS 
+===========================*/
 
 
 
