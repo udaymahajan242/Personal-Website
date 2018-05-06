@@ -91,7 +91,7 @@ ___         __        __      __   __   __   __        __
    }
      </script>
 </head>
-    <body onload = "document.getElementById('btn').disabled = true;">
+    <body>
 	  <!-- Output error message if any -->
      
     <div class="login-box">

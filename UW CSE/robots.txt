@@ -87,6 +87,12 @@ Disallow: /*.gif$
 User-agent: *
 Disallow: /images/*
 
+User-agent: *
+Disallow: /images/
+
+User-agent: *
+Disallow: /images/bg/*
+
 
 # MSN Images bot
 User-agent: MSNBot-Media
