@@ -2,8 +2,8 @@ ErrorDocument 404 https://homes.cs.washington.edu/~udaym242/404/
 ErrorDocument 403 https://homes.cs.washington.edu/~udaym242/403/
 
 Options All -Indexes
-# Ultimate htaccess Blacklist 2 from Perishable Press
-# Deny domain access to spammers and other scumbags
+# Ultimate htaccess Blacklist by Uday Mahajan.
+# Deny domain access to spammers and other scumbags.
 
 RewriteEngine on
 
