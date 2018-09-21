@@ -22,13 +22,8 @@ Disallow:
 User-agent: Googlebot-Image
 Disallow: / 
 
-
-
-
-
 # Google Search Bot
 User-agent: googlebot
-Disallow: /resume/
 Disallow: /js/
 Disallow: /css/
 Disallow: /schedule/
@@ -39,7 +34,6 @@ Disallow: /down/
 
 # Microsoft Search Bot
 User-agent: msnbot
-Disallow: /resume/
 Disallow: /js/
 Disallow: /css/
 Disallow: /schedule/

@@ -618,22 +618,21 @@ ul#nav li.current a { color: #00b2b2; }
   	border-radius: 3px;
 }
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+   font: 15px 'opensans-bold', sans-serif;
    color: #313131;
-	text-transform: uppercase;
+   text-transform: uppercase;
    letter-spacing: 2px;
-	font-weight: normal;
+   font-weight: normal;
    position: relative;
-	top: -36px;
+   top: -36px;
 }
 .bar-expand {
    position: absolute;
    left: 0;
    top: 0;
-
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #008080;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -642,9 +641,16 @@ ul#nav li.current a { color: #00b2b2; }
 
 .java {
   	width: 80%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: java 2s ease;
+  	-webkit-animation: java 2s ease;
 }
+
+.python {
+  	width: 60%;
+  	-moz-animation: java 2s ease;
+  	-webkit-animation: java 2s ease;
+}
+
 
 .verilog {
   	width: 50%;
@@ -653,15 +659,21 @@ ul#nav li.current a { color: #00b2b2; }
 }
 
 .git {
-  	width: 60%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	width: 75%;
+  	-moz-animation: git 2s ease;
+  	-webkit-animation: git 2s ease;
 }
 
 .c {
   	width: 68%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: c 2s ease;
+  	-webkit-animation: c 2s ease;
+}
+
+.cpp {
+  	width: 70%;
+  	-moz-animation: cpp 2s ease;
+  	-webkit-animation: cpp 2s ease;
 }
 
 .photoshop {
@@ -685,11 +697,30 @@ ul#nav li.current a { color: #00b2b2; }
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
+
+.javascript {
+  	width: 65%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
+}
 .jquery {
-  	width: 57%;
+  	width: 56%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
+
+.android {
+  	width: 56%;
+  	-moz-animation: android 2s ease;
+  	-webkit-animation: android 2s ease;
+}
+
+.php {
+  	width: 40%;
+  	-moz-animation: php 2s ease;
+  	-webkit-animation: php 2s ease;
+}
+
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }

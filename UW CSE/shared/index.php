@@ -44,8 +44,8 @@ ___         __        __      __   __   __   __        __
     session_start();
 
     // Defines username and password. Retrieve however you like,
-    $username = "akshat98";
-    $password = "Pratibha";
+    $username = "Austin";
+    $password = "PasSword#2018";
     
     // Error message
     $error = "";
