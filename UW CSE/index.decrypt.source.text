@@ -612,6 +612,33 @@ ___         __        __      __   __   __   __        __
          </div>
 
          <div class="nine columns main-col">
+		 
+		 
+		 
+		 
+			 <div class="row item">
+
+               <div class="twelve columns" oncopy="return false;" oncut="return false;" oncontextmenu="return false;">
+
+                  <h3>  <a href="http://www.udaymahajan.me/redirect/hs" target="_blank" >  <img src="images/pcd.png" alt="Patient Centeric Dentistry (Website Coming soon.)" width="38" height="38">  Patient Centeric Dentistry.</a></h3>
+                  <p class="info">Software Developer Intern<span>&bull;</span> <em class="date">June 2018 - September 2018</em></p>
+
+                  <p style="color:black;">
+                    Developed an internal Dental business management software using the <a href="https://www.opendental.com/site/sourcecode.html" target="_blank" > Open Dental Software source code  </a> that allows 
+				   the dentists to veiw patient records, visit notes, schedule, costs, insurance billing and much more.
+                  </p>
+				  				  
+				  <p style="color:black;">
+                   Worked on implementation ofthe business website for the business that allows patients to veiw services and hours, access patient forms
+				   and request appointments.
+                  </p>
+
+               </div>
+
+
+
+            </div> <!-- item end -->
+		 
 
             <div class="row item">
 
@@ -625,11 +652,14 @@ ___         __        __      __   __   __   __        __
                   concerns and making sure that they know about the available resources, guidelines regarding their work responsibilities,
                   filling out the necessary paperwork, attending pieces of training and helping them to become a more effective tutor.
 
-                  Responsibilities of a faculty recommended Professional Tutor include providing one-on-one assistance to fellow students
+                  </p>
+				  
+				  <p style="color:black;">
+				    Responsibilities of a faculty recommended Professional Tutor include providing one-on-one assistance to fellow students
                   across various collegiate level subject areas including math, physics, chemistry, and economics and lead weekly 50-minute interactive and
                   intensive practice sessions related to Collegiate Mathematics to a group of students. Additionally, Professional Tutors at Pierce College have similar responsibilities of peer tutors, have earned at least an Associate's degree
                   with stellar Grade Point Average,are proficient in their subject matter, and extensively trained in the art of learning and tutoring.
-                  </p>
+				  </p>
 
                   <p class="info">Peer Tutor<span>&bull;</span> <em class="date">September 2015 - September 2016</em></p>
 
@@ -707,6 +737,26 @@ ___         __        __      __   __   __   __        __
 
             <!-- portfolio-wrapper -->
             <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+			
+				
+				<div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                    <a href="#modal-00" title="myUW">
+                        <img alt="" src="images/portfolio/myUW.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                                  <h5>MyUW Mobile App</h5>
+                              <p>Personal Project (For: University of Washington.)</p>
+                               </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                    </a>
+
+
+
+                  </div>
+                </div> <!-- item end -->
 
                <div class="columns portfolio-item">
                   <div class="item-wrap">
@@ -853,10 +903,27 @@ ___         __        __      __   __   __   __        __
 
                   </div>
                 </div> <!-- item end -->
-                
-                
-     
+				
+				
+				 <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
+                     <a href="#modal-09" title="Flights Database Manaagement">
+                        <img alt="" src="images/portfolio/flights.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                                  <h5>Flights Database and Transaction Management</h5>
+                              <p>Introduction to Databases Final Project</p>
+                               </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+
+                  </div>
+                </div> <!-- item end -->
+				
+			
 
             </div> <!-- portfolio-wrapper end -->
 
@@ -865,6 +932,29 @@ ___         __        __      __   __   __   __        __
 
          <!-- Modal Popup
           --------------------------------------------------------------- -->
+		  
+		  
+		  <div id="modal-00" class="popup-modal mfp-hide" oncopy="return false;" oncut="return false;" oncontextmenu="return false;">
+
+              <img class="scale-with-grid"  onmousedown="return false;" oncopy="return false;" oncut="return false;" oncontextmenu="return false;" src="images/portfolio/modals/myUW.jpg" alt="" />
+
+              <div class="description-box">
+                  <h4>My UW Android Application.</h4>
+                  <p>
+                  Implemented and designed the official Android application for the University of Washington students to access their university portal
+				  known as "My UW" using their Android phone, without having to logging in repeatedly. The application provides a Material design
+				  interface for the Huskies to manage university accounts, view schedule and final grades for their courses and lot more.
+				  </p>
+               <span class="categories"><i class="fa fa-tag"></i> Android App Development, Java, XML, Kotlin, App Design, Personal Project</span>
+              </div>
+
+            <div class="link-box">
+               <a href="HTTP://www.udaymahajan.me/myUW" target="_blank">Visit the App Page<a>
+                 <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div><!-- modal-09 End -->
+		  
 
          <div id="modal-01" class="popup-modal mfp-hide"  onmousedown="return false;" oncopy="return false;" oncut="return false;" oncontextmenu="return false;">
 
@@ -880,7 +970,7 @@ ___         __        __      __   __   __   __        __
               </div>
 
             <div class="link-box">
-               <a href="https://github.com/udaymahajan242/CSE-332-Project-3-Chess-Bots-team-xian-" target="_blank">View on GitHub (Email Request Required for code.)</a>
+               <a href="https://github.com/udaymahajan242/CSE-332-Project-3-Chess-Bots-team-xian-" target="_blank">View on GitHub (Permission Required.)</a>
                  <a class="popup-modal-dismiss">Close</a>
             </div>
 
@@ -909,12 +999,12 @@ ___         __        __      __   __   __   __        __
 
               <div class="description-box">
                   <h4>uMessage</h4>
-                  <p> Implemented data structures such as MoveToFrontList, AVLTree, ChainingHashTable using Dictionary ADT in Java and sorting algorithms like QuickSort and TopKSort to drive word suggestion/prediction, spelling correction and auto-completion in uMessage chat predicting application, similar to the ones used in smart phones.  (Email Request Required for code).</p>
+                  <p> Implemented data structures such as MoveToFrontList, AVLTree, ChainingHashTable using Dictionary ADT in Java and sorting algorithms like QuickSort and TopKSort to drive word suggestion/prediction, spelling correction and auto-completion in uMessage chat predicting application, similar to the ones used in smart phones.  (Permission Required).</p>
                <span class="categories"><i class="fa fa-tag"></i> Back-end, Data Structures, Algorithms - Java </span>
               </div>
 
             <div class="link-box">
-               <a href="https://github.com/udaymahajan242/CSE-332-Project-2-uMessage-team-granger-" target="_blank">View on GitHub (Email Request Required for code.)</a>
+               <a href="https://github.com/udaymahajan242/CSE-332-Project-2-uMessage-team-granger-" target="_blank">View on GitHub (Permission Required.)</a>
                  <a class="popup-modal-dismiss">Close</a>
             </div>
 
@@ -928,7 +1018,7 @@ ___         __        __      __   __   __   __        __
                   <h4>Frogger</h4>
                   <p>
                   This project is inspired by the Frogger which  is a 1981 arcade game developed by Konami and sold 20 million copies worldwide.The objective of the game is to direct frogs to their homes one by one by crossing a busy road full of hazards.This road frogger is a high-tech traffic simulator with frogs and cars on a LED display using Intel's Altera FGPA.
-                  (Email Request Required for code).
+                  (Permission Required).
 
 
                   </p>
@@ -936,7 +1026,7 @@ ___         __        __      __   __   __   __        __
               </div>
 
             <div class="link-box">
-               <a href="https://github.com/udaymahajan242/CSE-369-Labs/tree/master/lab8" target="_blank">View code on GitHub (Email Request Required for code).</a>
+               <a href="https://github.com/udaymahajan242/CSE-369-Labs/tree/master/lab8" target="_blank">View code on GitHub (Permission Required).</a>
                  <a class="popup-modal-dismiss">Close</a>
             </div>
 
@@ -951,7 +1041,7 @@ ___         __        __      __   __   __   __        __
                   <h4>Spam Filter (Spam e-mail Classification system)</h4>
                   <p>
                   Created a Java application to determine whether an email is a Spam email or not using the Naïve Bayes classifier with Laplace smoothing, achieving over 95% accuracy.
-                  (Email Request Required for code).
+                  (Permission Required).
 
 
                   </p>
@@ -959,7 +1049,7 @@ ___         __        __      __   __   __   __        __
               </div>
 
             <div class="link-box">
-               <a href="https://github.com/udaymahajan242/Naive-Bias" target="_blank">View code on GitHub (Email Request Required for code).</a>
+               <a href="https://github.com/udaymahajan242/Naive-Bias" target="_blank">View code on GitHub (Permission Required).</a>
                  <a class="popup-modal-dismiss">Close</a>
             </div>
             
@@ -999,7 +1089,7 @@ ___         __        __      __   __   __   __        __
               </div>
 
             <div class="link-box">
-               <a href="https://github.com/udaymahajan242/CSE-331-Spring-2018" target="_blank">View code on GitHub (Email request required.)</a>
+               <a href="https://github.com/udaymahajan242/CSE-331-Spring-2018" target="_blank">View code on GitHub (Requires Permission.)</a>
                  <a class="popup-modal-dismiss">Close</a>
             </div>
 
@@ -1024,6 +1114,29 @@ ___         __        __      __   __   __   __        __
             </div>
 
           </div><!-- modal-08 End -->
+		  
+		  
+		     
+           <div id="modal-09" class="popup-modal mfp-hide" oncopy="return false;" oncut="return false;" oncontextmenu="return false;">
+
+              <img class="scale-with-grid"  onmousedown="return false;" oncopy="return false;" oncut="return false;" oncontextmenu="return false;" src="images/portfolio/modals/flights.jpg" alt="" />
+
+              <div class="description-box">
+                  <h4>Flight Booking Database Application & Transaction Management System.</h4>
+                  <p>
+                  Implemented  and designed a customer and flights database system using SQL from within Java via JDBC and SQL Server through SQL Azure, AWS.
+				  The resulting working prototype of the flight booking application connects to the database then 
+				  allows customers to use a command-line interface to search, book, and cancel flights.
+				  </p>
+               <span class="categories"><i class="fa fa-tag"></i> Database Management, Java, SQL, Azure, AWS, MySQL</span>
+              </div>
+
+            <div class="link-box">
+               <a href="https://github.com/udaymahajan242/CSE-344-Summer-2018" target="_blank">View code on GitHub (Requires Permission)</a>
+                 <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div><!-- modal-09 End -->
 
     
 
@@ -1084,6 +1197,13 @@ ___         __        __      __   __   __   __        __
      
       <h3>Data Structures & Parallelism</h3></a>
     </div>
+	
+	      <!-- member-->
+    <div class="team-member"><a href="https://courses.cs.washington.edu/courses/cse344/" target="_blank">
+      <img class="team-photo" src="./images/344.png">
+     
+      <h3>Introduction to Data Management.</h3></a>
+    </div>
 
     
      
@@ -1134,6 +1254,21 @@ ___         __        __      __   __   __   __        __
       <img class="team-photo" src="./images/391.png">
      
       <h3>System and Software Tools.</h3></a>
+    </div>
+	
+	      <!-- member-->
+    <div class="team-member"><a href="https://courses.cs.washington.edu/courses/cse484/" target="_blank">
+      <img class="team-photo" src="./images/484.png">
+     
+      <h3>Computer Security <br>  (In Progress).</h3></a>
+    </div>
+	
+	
+	      <!-- member-->
+    <div class="team-member"><a href="https://courses.cs.washington.edu/courses/cse451/" target="_blank">
+      <img class="team-photo" src="./images/451.png">
+     
+      <h3>Introduction to Operating Systems <br> (In Progress).</h3></a>
     </div>
 
    
