@@ -1,0 +1,110 @@
+@page { 
+    size:210mm 297mm; 
+    margin: 0;
+}
+
+
+* {box-sizing: border-box !important;}
+
+
+#top.btPageWrap .boldRow {
+	width: 100% !important;
+	margin: 0 0 30px !important;
+}
+
+#btBody #top.btPageWrap .rowItem {
+	border: none !important;
+	padding: 0 !important;
+	margin: 0 0 15px !important;
+	width: auto !important;
+	float: none !important;
+	display: block !important;
+	&:after {
+		display: none !important;
+	}
+}
+
+#btBody #top.btPageWrap div[class*="col-"] {
+	width: auto !important;
+	float: none !important;		
+}
+
+section.boldSection {
+	background-image: none !important;
+}
+
+#top.btPageWrap [class*="animate-"],
+#top.btPageWrap .animate {
+	opacity: 1 !important;
+	transform: none !important;
+	animation: none !important;
+}
+
+#top.btPageWrap header.mainHeader {
+	position: static;
+	transform: none !important;
+}
+
+.mainHeader .port .menuHolder > *:not(.logo),
+.btFooterWrap .boldRow > *:not(.btFooterCopy),
+aside.btSidebar, .btSeparator, .btPagination, .btBtn,
+.fooWidgets, .btIconImageRow, .menu, .btSiteFooterWidgets {
+	display: none !important;
+}
+
+img.btMainLogo {display: block !important;}
+img.btAltLogo {display: none !important;}
+
+.mainHeader .port .menuHolder > .logo {
+	margin: 0 auto 30px;
+	float: none;
+	img {
+		display: block;
+		width: 200px;
+		height: auto;
+		margin: 0 auto;
+	}
+}
+
+.btFooterCopy.btTextLeft {
+	text-align: center;
+}
+
+:lightSkinSelector, :darkSkinSelector {
+	h1,h2,h3,h4,h5,h6,p,ul,ol,li,a {
+		color: #000 !important;
+		opacity: 1;
+	}
+}
+
+.rowItem .rowItemContent .servicesItem {
+	float: none !important;
+	display: block;
+	width: 100%;
+}
+
+@for i in range(0, 12) {
+	.col-md-#(i) {
+		width: 100%;
+		float: none;
+	}
+}
+
+.servicesItem {
+	display: table;
+	width: 100%;
+	:any(.sIcon,.sTxt) {
+		display: table-cell;
+		float: none;
+		vertical-align: top;
+	}
+	.sIcon {
+		width: 1px;
+	}
+}
+
+:any(.btTextLeft,.btTextRight) .sTxt {
+	float: none !important;
+}
+
+

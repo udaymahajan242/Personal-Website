@@ -9,8 +9,8 @@ $(document).ready(function(){
     $(document).ready(function($){
                <!-- Terminal About script display-->
         $("#typed").typed({
-            strings: ["In a nutshell, I love to learn, build, play, and explore.", "I was born in the Repubic of India.", "I am an undergraduate student at Paul G. Allen School of Computer Science &amp; Engineering.",  "I am looking for Fall 2018 Software Development Internships.", "I am pursuing Computer Engineering." ,"I love to listen to music",
-            "I love running and working out", "Scroll down to learn more about me."],
+            strings: ["I am an undergraduate student at Paul G. Allen School of Computer Science &amp; Engineering.", "I plan to graduate in December 2019" ,  "I am looking for Software Development Internships.", "I am pursuing Computer Engineering." ,"I love to listen to music",
+            "I love running and working out", "I was born in the Repubic of India.", "Scroll down to learn more about me."],
             typeSpeed: 50,
 
 
@@ -103,12 +103,7 @@ $(document).ready(function(){
     document.getElementById("btn").disabled = false;
    }
      
-     
-     
-
-
-      
- 
+    
      
      document.onkeydown = function(e) {
        // Disable Saving, Pasting, Copying, Viewing the source code.
@@ -136,7 +131,7 @@ $(document).ready(function(){
     
       
        
-               var timer = setInterval(nextImage, 4000);
+       var timer = setInterval(nextImage, 4000);
         var curImage = 0;
         var numImages = 31;
 
