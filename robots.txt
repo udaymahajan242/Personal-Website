@@ -1,0 +1,172 @@
+# Robot behavior guidelines for Uday's Website
+
+# This file is to prevent the crawling and indexing of certain parts
+# of Uday's site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+
+# Google Ads Bot
+User-agent: AdsBot-Google
+Disallow:
+
+# Bing Ads Bot
+User-agent: AdIdxBot
+Disallow:
+
+# Yahoo! Ads Bot
+User-agent: Yahoo Ad Monitoring
+Disallow:
+
+# Google Images bot
+User-agent: Googlebot-Image
+Disallow: / 
+
+# Google Search Bot
+User-agent: googlebot
+Disallow: /js/
+Disallow: /css/
+Disallow: /schedule/
+Disallow: /blog/
+Disallow: /schedule/
+Disallow: /shared/
+Disallow: /down/
+
+# Microsoft Search Bot
+User-agent: msnbot
+Disallow: /js/
+Disallow: /css/
+Disallow: /schedule/
+Disallow: /blog/
+Disallow: /schedule/
+Disallow: /shared/
+Disallow: /down/
+
+# too many repeated hits, too quick
+User-agent: litefinder
+Disallow: /
+
+# Yahoo. too many repeated hits, too quick
+User-agent: Slurp
+Disallow: /
+
+# too many repeated hits, too quick
+User-agent: Baidu
+Disallow: /
+
+
+# All other bots
+User-agent: *
+Disallow: /resume/
+Disallow: /js/
+Disallow: /css/
+Disallow: /schedule/
+Disallow: /blog/
+Disallow: /schedule/
+Disallow: /shared/
+Disallow: /down/
+
+User-agent: *
+Disallow: /*.pdf$
+
+User-agent: *
+Disallow: /*.jpg$
+
+User-agent: *
+Disallow: /*.png$
+
+User-agent: *
+Disallow: /*.gif$
+
+User-agent: *
+Disallow: /images/*
+
+User-agent: *
+Disallow: /images/
+
+User-agent: *
+Disallow: /images/bg/*
+
+
+# MSN Images bot
+User-agent: MSNBot-Media
+Disallow: /
+
+User-agent: HTTrack Disallow /
+
+User-agent: Httrack Disallow /
+
+User-agent: httrack
+Disallow: /
+
+User-agent: NetCaptor
+Disallow: /
+
+User-agent: Offline Explorer
+Disallow: /
+
+User-agent: SpiderKU/0.9
+Disallow: /
+
+User-agent: Steeler
+Disallow: /
+
+User-agent: WebCopier v3.3
+Disallow: /
+
+User-agent: WebCopier v3.2a
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: webcrawler
+Disallow: /
+
+User-agent: Web Downloader/4.9
+Disallow: /
+
+User-agent: Web Downloader/5.8
+Disallow: /
+
+User-agent: WebGather 3.0
+Disallow: /
+
+User-agent: WebStripper/2.56
+Disallow: /
+
+User-agent: WebZIP/3.65
+Disallow: /
+
+User-agent: WebZIP
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+User-agent: Zao
+Disallow: /
+
+User-agent:  Zeus 2.6
+Disallow: /
+
+User-agent: *
+Disallow: /cgi-bin/
+
+
+User-agent: Extractor Pro
+Disallow: /
+
+User-agent: YahooSeeker
+Disallow: /
+
+
+User-agent: EmailSiphon
+Disallow: /
+
+User-agent: Extractor Pro
+Disallow: /
+
+User-agent: DLExpert
+Disallow: /
+
