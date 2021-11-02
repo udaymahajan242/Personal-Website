@@ -1,0 +1,47 @@
+# Site settings
+name: Uday Mahajan
+title: Uday Mahajan | Software Engineer (II)
+description: Personal Website
+destination: ./docs
+url: https://udaymahajan.com/
+baseurl: ''
+email: info@udaymahajan.com
+logo: ../img/icons/favicon.png
+resume: ../resume.pdf
+social:
+  - title: email
+    fontawesome: fa fa-envelope
+    url: mailto:info@udaymahajan.com
+  - title: twitter
+    fontawesome: fab fa-twitter
+    url: https://twitter.com/udaymahajan242
+  - title: instagram
+    fontawesome: fab fa-instagram
+    url: https://instagram.com/udaymahajan242
+  - title: github
+    fontawesome: fab fa-github
+    url: https://github.com/v
+  - title: linkedin
+    fontawesome: fab fa-linkedin
+    url: https://www.linkedin.com/in/udaymahajan242
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

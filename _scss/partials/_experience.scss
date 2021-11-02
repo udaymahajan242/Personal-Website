@@ -1,0 +1,47 @@
+.experience {
+  
+  .jobs {
+    margin-bottom: 100px;
+  }
+  .job {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    @include weird-medium {
+      flex-wrap: wrap;
+    }
+    .time-place {
+      display: flex;
+      justify-content: space-between;
+      @include mobile {
+        display: block;
+      }
+    }
+    &__company {
+      font-weight: 900;
+    }
+    &__time {
+      font-size: 1.0rem;
+      float:right;
+      font-family: 'Inconsolata', monospace;
+      @include mobile {
+        font-size: 0.8rem;
+      }
+    }
+    .position {
+      display: flex;
+      justify-content: space-between;
+      @include mobile {
+        display: block;
+      }
+    }
+
+
+  }
+  .arrow-link {
+    font-size: 1.25rem;
+    &:after {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

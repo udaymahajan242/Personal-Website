@@ -1,0 +1,48 @@
+- company: Tesla Inc.
+  logo: tesla
+  url: https://www.tesla.com/
+  time: March 2021 - Present
+  location: Bellevue, WA
+  flag: usa
+  position: Software Engineer (II) 
+
+- company: T-Mobile
+  logo: tmo
+  url: https://t-mobile.com/
+  time: Mar 2020 - Mar 2021
+  location: Bellevue, WA
+  flag: usa
+  position: Software Engineer
+
+- company: T-Mobile
+  logo: tmo
+  url: https://t-mobile.com/
+  time: Jun 2019 - Dec 2019
+  location: Bellevue, WA
+  flag: usa
+  position: Software Engineer Intern
+
+- company: University of Washington
+  
+  url: https://www.washington.edu/
+  logo: uws
+  time: Sep 2017 - Dec 2018
+  location: Seattle, WA
+  flag: usa
+  position: Reasearch Lab Assistant  (Part-Time)
+
+- company: Univeristy of Washington
+  logo: uws
+  url: https://www.washington.edu/
+  time: Sep 2018 - June 2019
+  location: Seattle, WA
+  flag: usa
+  position: Mobile App Developer (Part-Time)
+
+- company: Pierce College
+  logo: pc
+  url: http://www.pierce.ctc.edu/
+  time: Sep 2015 - Mar 2017
+  location: Puyallup, WA
+  flag: usa
+  position: Professional Tutor (Part-Time)

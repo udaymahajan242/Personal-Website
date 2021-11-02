@@ -1,0 +1,25 @@
+languages:
+  - item: Java
+  - item: C#
+  - item: Python
+  - item: HTML
+  - item: JavaScript (ES6)
+  - item: MYSQL
+
+frameworks:
+  - item: Springboot
+  - item: .NET
+  - item: React
+  - item: Jekyll
+  - item: Node
+  - item: Wordpress
+  - item: Timber
+
+tools:
+  - item: Bash
+  - item: Git & Github
+  - item: Gulp
+  - item: Chrome DevTools
+  - item: Postman
+  - item: MongoDB
+  - item: Cassandra
