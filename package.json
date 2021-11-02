@@ -4,9 +4,9 @@
   "description": "Design-minded front-end software engineer focused on building beautiful interfaces and experiences",
   "repository": {
     "type": "git",
-    "url": "https://www.udaymahajan.com"
+    "url": "https://github.com/udaymahajan242/Personal-Website"
   },
-  "homepage": "https://www.udaymahajan.com",
+  "homepage": "https://github.com/udaymahajan242/Personal-Website",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve --watch",
