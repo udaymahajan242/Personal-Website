@@ -1,14 +1,3 @@
-
- $(document).ready(function($){
-    $(document.getElementById('typed')).typed({
-   strings: [ "Hello.", "Olá", " नमस्ते. " , "你好",  "ਸਤ ਸ੍ਰੀ ਅਕਾਲ.",  "Kumusta po.", "Salve", "xin chào." , "ഹലോ" , "హలో.", "Hola." , "Hello.", "வணக்கம்.", "Ciao.",  "হ্যালো." , "こんにちは.", " नमस्ते. " , "Përshëndetje", "હેલ્લો.", "Здравствуйте." , "Hello.", "ಹಲೋ.", "Bonjour." , " नमस्ते. " ,"مرحبا ", "ഹലോ.", "हॅलो.", "여보세요.", "سلام", "Hallo.", "Hello.", "Χαίρετε." , " नमस्ते. " ,"ہیلو", "ሰላም", "Բարեւ","Kaixo", "добры дзень", " नमस्ते. " ,"ဟယ်လို", "buna" ],
-        typeSpeed: 50,
-         backSpeed: 50
-
-    });
-
-});
-
 $(function() {
   const d = new Date();
   const hours = d.getHours();
@@ -22,7 +11,6 @@ $(function() {
     body.classList.add('night');
   }
 
-  
   toggle.addEventListener('click', function() {
     const isChecked = input.checked;
     if (isChecked) {
@@ -80,10 +68,10 @@ $(function() {
     scale: 1,
     viewFactor: 0.3,
   });
+
   sr.reveal('.background');
   sr.reveal('.skills');
   sr.reveal('.experience', { viewFactor: 0.2 });
   sr.reveal('.featured-projects', { viewFactor: 0.1 });
   sr.reveal('.other-projects', { viewFactor: 0.05 });
-
 });
