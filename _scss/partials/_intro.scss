@@ -135,6 +135,29 @@
         }
       }
 
+      &.email {
+        background-image: url('../img/emojis/email.png');
+        width: 30px;
+        height: 30px;
+        margin: 0 5px;
+        @include phablet {
+          width: 25px;
+          height: 25px;
+        }
+      }
+
+      &.speech {
+        background-image: url('../img/emojis/speech.png');
+        width: 30px;
+        height: 30px;
+        margin: 0 5px;
+        @include phablet {
+          width: 25px;
+          height: 25px;
+        }
+      }
+
+
       &.pointerdown {
         background-image: url('../img/emojis/pointdown.png');
         width: 30px;
