@@ -1,11 +1,18 @@
 - company: Tesla Inc.
   logo: tesla
   url: https://www.tesla.com/
-  time: March 2021 - Present
+  time: March 2022 - Present
   location: Bellevue, WA
   flag: usa
   position: Software Engineer (II) 
 
+- company: Tesla Inc.
+  logo: tesla
+  url: https://www.tesla.com/
+  time: March 2021 - Feb 2022
+  location: Bellevue, WA
+  flag: usa
+  position: Software Engineer (II) 
 - company: T-Mobile
   logo: tmo
   url: https://t-mobile.com/
