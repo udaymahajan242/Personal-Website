@@ -4,3 +4,4 @@ _site
 node_modules
 docs/*
 !docs/.gitkeep
+.jekyll-cache/*
