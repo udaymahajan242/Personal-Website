@@ -28,6 +28,7 @@
   "dependencies": {
     "cross-spawn": "^7.0.3",
     "gulp-util": "^3.0.8",
+    "jekyll": "^3.0.0-beta1",
     "typed.js": "^2.0.12",
     "win-spawn": "^2.0.0"
   }
