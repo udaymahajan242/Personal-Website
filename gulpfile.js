@@ -3,7 +3,7 @@ const sass = require('./build/sass');
 const scripts = require('./build/scripts');
 const images = require('./build/images');
 const sync = require('./build/browsersync');
-const spawn = require('cross-spawn');
+var spawn = process.platform === 'win32' ? require('win-spawn') : require('child_process').spawn;
 
 
 [sass, scripts, images, sync].forEach(task => {
