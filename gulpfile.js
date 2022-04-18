@@ -3,14 +3,17 @@ const sass = require('./build/sass');
 const scripts = require('./build/scripts');
 const images = require('./build/images');
 const sync = require('./build/browsersync');
-var spawn = process.platform === 'win32' ? require('win-spawn') : require('child_process').spawn;
-
+var exec = require('child_process').exec;
+var gutil = require('gulp-util');
 
 [sass, scripts, images, sync].forEach(task => {
   task(gulp);
 });
 
 gulp.task('build', gulp.series(['sass', 'scripts', 'images']));
+
 gulp.task('jekyll', function (){
-  spawn('jekyll', ['build'], {stdio: 'inherit'});
-});
+  exec('jekyll build', function(err, stdout, stderr) {
+      console.log(stdout);
+  });
+  });
