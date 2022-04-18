@@ -8,4 +8,6 @@ const sync = require('./build/browsersync');
   task(gulp);
 });
 
-gulp.task('build', gulp.series(['sass', 'scripts', 'images', 'jekyll-build']));
+var jekyll = process.platform === "win32" ? "jekyll.bat" : "jekyll";
+
+gulp.task('build', gulp.series(['sass', 'scripts', 'images', 'jekyll']));
