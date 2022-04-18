@@ -2,11 +2,11 @@
 name: Uday Mahajan
 title: Uday Mahajan | Senior Software Engineer
 description: Personal Website
-destination: ./docs
 url: https://udaymahajan242.github.io/Personal-Website/
-baseurl:  /
+baseurl: ''
+email: info@udaymahajan.com
 logo: ./img/icons/favicon.png
-resume: ../resume.pdf
+resume: ./resume.pdf
 social:
   - title: email
     fontawesome: fa fa-envelope
@@ -23,6 +23,7 @@ social:
   - title: linkedin
     fontawesome: fab fa-linkedin
     url: https://www.linkedin.com/in/udaymahajan242
+    
 # Build settings
 markdown: kramdown
 
