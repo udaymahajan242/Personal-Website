@@ -6,7 +6,7 @@ const sync = require('./build/browsersync');
 var exec = require('child_process').exec;
 var gutil = require('gulp-util');
 
-[sass, scripts, images, sync].forEach(task => {
+[sass, scripts, images].forEach(task => {
   task(gulp);
 });
 
